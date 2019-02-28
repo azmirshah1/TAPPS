@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Round About - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/tapps.css" rel="stylesheet">
+
+    <!-- CSS for datepicker -->
+    <link href="css/datepicker.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+
+     <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">TAPPS</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Students <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Examination</a></li>
+                            <li><a href="studentdetails.html">Student Details</a></li>
+                            <li><a href="#">Student Timetable</a></li>
+                            <li><a href="admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">User <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="manageuser.html">Manage User</a></li>
+                            <li><a href="#">Educator Timetable</a></li>
+                        </ul>
+                    </li>
+
+                       <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">HR <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Leave Management</a></li>
+                            <li><a href="#">Employee Pay Slip</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Settings <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Manage Course/Batch</a></li>
+                            <li><a href="#">Manage Student Category</a></li>
+                            <li><a href="#">Manage Subject</a></li>
+                            <li><a href="#">Admission Additional Details</a></li>
+                            <li><a href="#">SMS Module</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">More <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Finance</a></li>
+                            <li><a href="#">Manage News</a></li>
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Event</a></li>
+                        </ul>
+                    </li>
+                </ul> 
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href= ""><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+                    <li><a href= "login.html"><span class="glyphicon glyphicon-off" aria-hidden="true"></span></a></li>
+                </ul>
+            </div>
+
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Breadcrumbs Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li class="active">Fees Submission</li>
+                </ol>
+            </div>
+
+        </div>
+    <!-- form details -->
+
+       <!-- form details -->
+
+      <!-- header form Row -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-sm-12 col-xs-12 col-centered">
+            <div class="col-lg-3 col-sm-3 col-xs-5 text-right">
+                <div><img class="img-circle img-responsive img-center" src="images/timetable logo.png" alt=""></div>
+            </div>
+        <div class="col-lg-8 col-sm-8 col-xs-6 push-right">
+            <h2>Timetable</h2>
+            <FONT class="red">Timetable Register</FONT>
+        </div>
+    </div>
+</div>
+
+    <!-- Thermatic break  -->
+    <div class="row">
+        <div class="col-lg-8 col-centered">
+            <hr/>
+        </div>
+    </div>
+
+    <!-- Dropdown Cource -->
+<form class="form-horizontal" role="form">
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-8 col-sm-8 col-xs-12 column">
+            <div class="form-group">
+                <label for="selectBatch" class="col-lg-6 col-sm-6 col-xs-12 control-label">Select Batch </label>
+                <div class="col-lg-6 col-sm-6 col-xs-12">
+                    <select class="form-control selectpicker" id="selectBatch">
+                        <option></option>
+                        <option>Year 1</option>
+                        <option>Year 2</option>
+                        <option>Year 3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--     We should use datepicker, not selectpicker. Change it when we use rails -->
+     <div class="row">
+        <div class="col-lg-8 col-sm-8 col-xs-12 column">
+            <div class="form-group">
+                <label for="selectBatch" class="col-lg-6 col-sm-6 col-xs-12 control-label">End Date </label>
+                <div class="col-lg-6 col-sm-6 col-xs-12">
+                    <select class="form-control selectpicker" id="selectBatch">
+                        <option></option>
+                        <option>1 Disember 2015</option>
+                        <option>1 January 2016</option>
+                        <option>2 February 2016</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--     We should use datepicker, not selectpicker. Change it when we use rails -->
+     <div class="row">
+        <div class="col-lg-8 col-sm-8 col-xs-12 column">
+            <div class="form-group">
+                <label for="selectBatch" class="col-lg-6 col-sm-6 col-xs-12 control-label">Start Date </label>
+                <div class="col-lg-6 col-sm-6 col-xs-12">
+                    <select class="form-control selectpicker" id="selectBatch">
+                        <option></option>
+                        <option>1 Disember 2015</option>
+                        <option>1 January 2015</option>
+                        <option>2 February 2015</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</form>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-sm-12 col-xs-12 col-centered">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div><img class="img-responsive" src="images/timetable1.png"></div>
+            </div>
+    </div>
+</div>
+<br/>
+
+    <div class="col-lg-8 col-sm-12 col-xs-12 col-centered">
+              <div class="pull-right"> <button class="btn btn-tekan" type="reset">Save Timetable</button></div>
+    </div>
+
+</div>
+
+</div>
+<br/>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- datepicker -->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/locales/bootstrap-datepicker.uk.js"></script>
+
+
+
+</body>
+
+</html>

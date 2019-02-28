@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Round About - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/tapps.css" rel="stylesheet">
+
+    <!-- CSS for datepicker -->
+    <link href="css/datepicker.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+
+     <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">TAPPS</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Students <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Examination</a></li>
+                            <li><a href="studentdetails.html">Student Details</a></li>
+                            <li><a href="#">Student Timetable</a></li>
+                            <li><a href="admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">User <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Manage User</a></li>
+                            <li><a href="#">Educator Timetable</a></li>
+                        </ul>
+                    </li>
+
+                       <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">HR <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Leave Management</a></li>
+                            <li><a href="#">Employee Pay Slip</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Settings <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Manage Course/Batch</a></li>
+                            <li><a href="#">Manage Student Category</a></li>
+                            <li><a href="#">Manage Subject</a></li>
+                            <li><a href="#">Admission Additional Details</a></li>
+                            <li><a href="#">SMS Module</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">More <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Finance</a></li>
+                            <li><a href="#">Manage News</a></li>
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Event</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href= ""><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+                    <li><a href= "login.html"><span class="glyphicon glyphicon-off" aria-hidden="true"></span></a></li>
+                </ul>
+            </div>
+
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Breadcrumbs Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li class="active">Admission</li>
+                </ol>
+            </div>
+        </div>
+
+    <!-- form details -->
+
+    <!-- header form Row -->
+    <div class="row">
+        <div class="col-lg-12">
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-6 text-right">
+            <div><img class="img-circle img-responsive img-center" src="images/admission logo.png" alt=""></div>
+        </div>
+        <div class="col-lg-2 col-sm-3 col-xs-6 left-padding">
+            <h3>Admission</h3>
+            <FONT COLOR="red">Create New Student</FONT>
+        </div>
+    </div>
+
+   
+    
+    
+    <form class="form-horizontal admission" role="form">
+    <h3> Basic </h3>
+    <hr>
+    <!-- start form -->
+    <!-- Personal details section-->
+    
+        <div class="form-group">
+            <label for="admissionnNumber" class="col-sm-2 control-label">Admission Number</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="admissionNumber">
+            </div>
+        </div>
+
+        <!-- Repair kemudian -->
+        <div class="form-group">
+            <label for="datepicker" class="col-sm-2 control-label">Admission Date</label>
+        
+        <div class="col-sm-3">
+
+                    <div class="input-group date datepicker" id="datepicker">
+                    <input type="text" class="form-control" />
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+    <div class="row">
+    </div>
+</div>
+
+
+
+    <!-- Personal details section-->
+    <h3> Personal Details</h3>
+    <hr>
+
+        <div class="form-group">
+            <label for="fullName" class="col-sm-2 control-label">Full Name</label>
+            <div class="col-sm-6">
+            <input type="text" class="form-control" id="fullName" placeholder="Full name...">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="courseAndBatch" class="col-sm-2 control-label">Course & Batch</label>
+            <div class="col-sm-3">
+        <select class="form-control selectpicker" id="courseAndBatch">
+            <option></option>
+            <option>Year 1</option>
+            <option>Year 2</option>
+            <option>Year 3</option>
+        </select>
+            </div>
+        </div>
+
+        <!-- Repair kemudian - DOB -->
+         <div class="form-group">
+            <label for="dateOfBirth" class="col-sm-2 control-label">Date Of Birth</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="dateOfBirth" placeholder="Date Selection">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="gender" class="col-sm-2 control-label">Gender</label>
+            <div class="col-sm-3">
+            <label class="radio-inline"><input type="radio" name="optradio">Male</label>
+            <label class="radio-inline"><input type="radio" name="optradio">Female</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="bloadType" class="col-sm-2 control-label">BloodType</label>
+            <div class="col-sm-3">
+        <select class="form-control selectpicker" id="bloodType">
+            <option> </option>
+            <option>A + </option>
+            <option>A - </option>
+            <option>B + </option>
+            <option>B - </option>
+            <option>O + </option>
+            <option>O - </option>
+            <option>AB + </option>
+            <option>AB - </option>
+        </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="birthPlace" class="col-sm-2 control-label">Birth Place</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="birthPlace" placeholder="Birth Place">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="nationally" class="col-sm-2 control-label">Nationally</label>
+            <div class="col-sm-3">
+        <select class="form-control selectpicker" id="nationally">
+            <option></option>
+            <option>Malaysian</option>
+            <option>Indonesian</option>
+            <option>Others</option>
+        </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="category" class="col-sm-2 control-label">Category</label>
+            <div class="col-sm-3">
+        <select class="form-control selectpicker" id="category">
+            <option></option>
+            <option>Select 1</option>
+            <option>Select 2</option>
+            <option>Select 3</option>
+        </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="religion" class="col-sm-2 control-label">Religion</label>
+            <div class="col-sm-3">
+        <select class="form-control selectpicker" id="religion">
+            <option></option>
+            <option>Islam</option>
+            <option>Christian</option>
+            <option>Hindu</option>
+            <option>Buddha</option>
+            <option>Sikh</option>
+            <option>Others</option>
+        </select>
+            </div>
+        </div>
+
+    <!-- Contact details section -->
+    <h3> Contact Details</h3>
+    <hr/>
+
+        <div class="form-group">
+            <label for="address" class="col-sm-2 control-label">Address</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="address1" placeholder="Address line 1"><br> 
+            <input type="text" class="form-control" id="address2" placeholder="Address line 2">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="city" class="col-sm-2 control-label">City</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="city" placeholder="City">
+            </div>
+        </div>
+         <div class="form-group">
+            <label for="state" class="col-sm-2 control-label">State</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="state" placeholder="State">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="postcode" class="col-sm-2 control-label">Postcode</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="postcode" placeholder="Postcode">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="country" class="col-sm-2 control-label">Country</label>
+            <div class="col-sm-3">
+        <select class="form-control selectpicker" id="country">
+            <option></option>
+            <option>Malaysia</option>
+            <option>Singapore</option>
+            <option>Indonesia</option>
+        </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="phone" class="col-sm-2 control-label">Phone</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="phone" placeholder="Home Phone">
+            </div>
+        </div>
+         <div class="form-group">
+            <label for="mobile" class="col-sm-2 control-label">Mobile</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="mobile" placeholder="Mobile Phone">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" id="email" placeholder="Email">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="photo" class="col-sm-2 control-label">Upload your photo</label>
+
+
+            <div class="col-sm-3">
+                <input type="file" class="filestyle " id="religion" data-buttonName="btn-primary">
+            </div>
+        </div>
+        <br/>
+
+
+        <div class="form-group ">
+
+            <label for="email" class="col-sm-2 control-label"></label>
+          
+            <div class="col-sm-3">
+              <button class="btn btn-danger" type="reset">Reset</button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+
+        </div>
+
+
+
+
+</form>
+        
+
+
+        <!-- Footer -->
+        <footer>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- datepicker -->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/locales/bootstrap-datepicker.uk.js"></script>
+
+
+
+</body>
+
+</html>

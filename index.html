@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TAPPS</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/tapps.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">TAPPS</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Students <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Examination</a></li>
+                            <li><a href="studentdetails.html">Student Details</a></li>
+                            <li><a href="#">Student Timetable</a></li>
+                            <li><a href="admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">User <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="manageuser.html">Manage User</a></li>
+                            <li><a href="#">Educator Timetable</a></li>
+                        </ul>
+                    </li>
+
+                       <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">HR <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Leave Management</a></li>
+                            <li><a href="#">Employee Pay Slip</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Settings <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Manage Course/Batch</a></li>
+                            <li><a href="#">Manage Student Category</a></li>
+                            <li><a href="#">Manage Subject</a></li>
+                            <li><a href="#">Admission Additional Details</a></li>
+                            <li><a href="#">SMS Module</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">More <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Finance</a></li>
+                            <li><a href="managenews.html">Manage News</a></li>
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Event</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href= ""><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+                    <li><a href= "login.html"><span class="glyphicon glyphicon-off" aria-hidden="true"></span></a></li>
+                </ul>
+            </div>
+
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5 col-sm-5 col-xs-8 col-centered">
+          <form class="form" role="search">
+            
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Find for..." name="search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-tekan" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+          </form>
+            </div>
+          </div>
+
+        
+
+        <br>  
+        <!-- Breadcrumbs Row -->
+<!--         <div class="row">
+            <div class="col-lg-12">
+                <ol class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li class="active">Home</li>
+                </ol>
+            </div>
+        </div> -->
+
+        <!-- Details Row -->
+        <div class="row">
+            <div class="col-lg-12">
+            </div>
+            
+            <div class="col-lg-3 col-sm-3 col-xs-6 text-center element">
+                <img class="img-circle img-responsive img-center" src="images/admission logo.png" alt="">
+                <h3>Admission</h3>
+                <p>Enter student admission details into the school record</p>
+            </div>
+            
+            <div class="col-lg-3 col-sm-3 col-xs-6 text-center element">
+                <img class="img-circle img-responsive img-center" src="images/student details logo.png" alt="">
+                <h3>Student Details</h3>
+                <p>Search for existing and former students</p>
+            </div>
+            <div class="col-lg-3 col-sm-3 col-xs-6 text-center element">
+                <img class="img-circle img-responsive img-center" src="images/manage user logo.png" alt="">
+                <h3>Manage User</h3>
+                <p>Manage Users</p>
+            </div>
+            <div class="col-lg-3 col-sm-3 col-xs-6 text-center element">  
+                <img class="img-circle img-responsive img-center" src="images/manage news logo.png" alt="">
+                <h3>Manage News</h3>
+                <p>View or publish latest school news or annoucements</p>
+            </div>
+            <div class="col-lg-3 col-sm-3 col-xs-6 text-center element">
+                <img class="img-circle img-responsive img-center" src="images/examination logo.png" alt="">
+                <h3>Examination</h3>
+                <p>Manage Examinations</p>
+            </div>
+            <div class="col-lg-3 col-sm-3 col-xs-6 text-center element">
+                <img class="img-circle img-responsive img-center" src="images/timetable logo.png" alt="">
+                <h3>Timetable</h3>
+                <p>Timetable management module</p>
+            </div>
+
+             <div class="col-lg-3 col-sm-3 col-xs-6 text-center element">
+                <img class="img-circle img-responsive img-center" src="images/attendance logo.png" alt="">
+                <h3>Attendance</h3>
+                <p>Manage student attendance</p>
+            </div>
+             <div class="col-lg-3 col-sm-3 col-xs-6 text-center element">
+                <img class="img-circle img-responsive img-center" src="images/setting logo.png" alt="">
+                <h3>Setting</h3>
+                <p>Configure the basic school setting</p>
+            </div>
+             <div class="col-lg-3 col-sm-3 col-xs-6 text-center element">
+                <img class="img-circle img-responsive img-center" src="images/human resources logo.png" alt="">
+                <h3>Human resources</h3>
+                <p>Human Resources Department</p>
+            </div>
+             <div class="col-lg-3 col-sm-3 col-xs-6 text-center element">
+                <img class="img-circle img-responsive img-center" src="images/finance logo.png" alt="">
+                <h3>Finance</h3>
+                <p>Manage finance module</p>
+            </div>
+            
+
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; iReka Soft 2015</p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

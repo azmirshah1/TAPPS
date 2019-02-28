@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Round About - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/tapps.css" rel="stylesheet">
+
+    <!-- CSS for datepicker -->
+    <link href="css/datepicker.css" rel="stylesheet">
+
+    <link href="css/jquery-ui.css" rel="stylesheet">
+
+
+    
+
+<style>
+
+div#scroll-able {
+    height:400px;
+    overflow-x:hidden;
+    overflow-y:scrollspy hidden;
+}
+
+div#scroll-able1 {
+    height:400px;
+    overflow-x:hidden;
+    overflow-y:scrollspy hidden;
+}
+
+li.active a,
+li.active:hover a, 
+li:focus a  {
+    color: #FFF;
+}
+/*http://jsfiddle.net/ExplosionPIlls/9scJE/1/*/
+        div.myautoscroll {
+            height: 540px;
+            overflow: hidden;
+/*            border: 1px solid #444;*/
+        }
+        div.myautoscroll:hover {
+            overflow: auto;
+            padding-right: 1px;
+        }
+        div.myautoscroll p {
+            padding-right: 0;
+        }
+        div.myautoscroll:hover p {
+            padding-right: 0px;
+        }
+/*sasasasasasasa*/
+        div.myautoscroll1 {
+            height: 540px;
+            overflow: hidden;
+        }
+        div.myautoscroll1:hover {
+            overflow: auto;
+            padding-right: 1px;
+        }
+        div.myautoscroll1 p {
+            padding-right: 0;
+            background-color:#ff0;
+        }
+        div.myautoscroll1:hover p {
+            padding-right: 0px;
+        }
+</style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+
+     <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">TAPPS</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Students <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Examination</a></li>
+                            <li><a href="studentdetails.html">Student Details</a></li>
+                            <li><a href="#">Student Timetable</a></li>
+                            <li><a href="admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">User <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Manage User</a></li>
+                            <li><a href="#">Educator Timetable</a></li>
+                        </ul>
+                    </li>
+
+                       <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">HR <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Leave Management</a></li>
+                            <li><a href="#">Employee Pay Slip</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Settings <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Manage Course/Batch</a></li>
+                            <li><a href="#">Manage Student Category</a></li>
+                            <li><a href="#">Manage Subject</a></li>
+                            <li><a href="#">Admission Additional Details</a></li>
+                            <li><a href="#">SMS Module</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">More <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Finance</a></li>
+                            <li><a href="#">Manage News</a></li>
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Event</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href= ""><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+                    <li><a href= "login.html"><span class="glyphicon glyphicon-off" aria-hidden="true"></span></a></li>
+                </ul>
+            </div>
+
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Breadcrumbs Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="">Message</a></li>
+                    <li class="active">Chat Messaging</li>
+                </ol>
+            </div>
+        </div>
+
+    <!-- form details -->
+
+    <ul class="nav nav-pills nav-stacked col-md-3">
+  <li class="active"><a href="#tab_a" data-toggle="pill">Pill A</a></li>
+  <li><a href="#tab_b" data-toggle="pill">Pill B</a></li>
+  <li><a href="#tab_c" data-toggle="pill">Pill C</a></li>
+  <li><a href="#tab_d" data-toggle="pill">Pill D</a></li>
+  <li><a href="#tab_d" data-toggle="pill">Pill E</a></li>
+  <li><a href="#tab_d" data-toggle="pill">Pill F</a></li>
+  <li><a href="#tab_d" data-toggle="pill">Pill G</a></li>
+  <li><a href="#tab_d" data-toggle="pill">Pill H</a></li>
+  <li><a href="#tab_d" data-toggle="pill">Pill I</a></li>
+  <li><a href="#tab_d" data-toggle="pill">Pill J</a></li>
+  <li><a href="#tab_d" data-toggle="pill">Pill K</a></li>
+</ul>
+<div class="tab-content col-md-9">
+        <div class="tab-pane active" id="tab_a">
+             <h4>Pane A</h4>
+            <p>PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div class="tab-pane" id="tab_b">
+             <h4>Pane B</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                ac turpis egestas.</p>
+        </div>
+        <div class="tab-pane" id="tab_c">
+             <h4>Pane C</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                ac turpis egestas.</p>
+        </div>
+        <div class="tab-pane" id="tab_d">
+             <h4>Pane D</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+                ac turpis egestas.</p>
+        </div>
+</div><!-- tab content -->
+
+
+<div class="container">      
+    <div class="row">
+        <nav id="target_nav" class="col-md-13">
+        <div class="col-md-3 myautoscroll1">
+            <div>
+                <form class="navbar-form" role="search">
+                    <div class="input-group col-lg-12">
+                    <input type="text" class="form-control" placeholder="Search Name.." name="search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-tekan" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div> 
+            <nav id="target_nav" class="col-md-13">
+                <ul class="nav list-group">
+                    <li class="list-group-item"><a href="#one">Zaman Ikhmal</a></li>
+                    <li class="list-group-item"><a href="#two">Siti Zulaikah Illham</a></li>
+                    <li class="list-group-item"><a href="#three">Zainal Aziz</a></li>
+                    <li class="list-group-item"><a href="#four">Ahmad Tarmizi Saleh</a></li>
+                    <li class="list-group-item"><a href="#five">Soleha Nurul Iman</a></li>
+                    <li class="list-group-item"><a href="#six">Azizul Hasni Awang</a></li>
+                    <li class="list-group-item"><a href="#seven">Salam Haikal Abdullah</a></li>
+                    <li class="list-group-item"><a href="#eight">Zailinda Zulkifli</a></li>
+                    <li class="list-group-item"><a href="#nine">Mikael Ahmad Najad</a></li>
+                    <li class="list-group-item"><a href="#ten">Siti Nur Azura Binti Kasim</a></li>
+                    <li class="list-group-item"><a href="#eleven">Intan Nur Hidayah</a></li>
+                    <li class="list-group-item"><a href="#twelve">Ahmad Syafie Kamarulzaman</a></li>
+                    <li class="list-group-item"><a href="#thirteen">Tan Kim Kee</a></li>
+                    <li class="list-group-item"><a href="#forteen">Arruna A/P Krishnan</a></li>
+                </ul>
+            </nav>
+        </div>
+    <div class="myautoscroll col-lg-9 text-justify" data-spy="scroll" data-target="#target_nav" data-offset="20">
+        <section id="one"><h4>One</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></section>
+
+
+        <section id="two"><h4>Two</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></section>
+
+
+        <section id="three"><h4>Three</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></section>
+
+
+        <section id="four"><h4>Four</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></section>
+
+        <section id="five"><h4>Five</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></section>
+
+        <section id="six"><h4>Six</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></section>
+
+        <section id="seven"><h4>Seven</h4><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></section>
+   </div>
+   </div>
+</div>
+
+<br/>
+<br/>
+    <!-- News description -->
+    <div class="row">
+        <div class="column col-lg-3">
+        </div>
+        <div class="col-lg-9 col-sm-12 col-xs-12 column">
+            <label class="grey"> <em>Si Polan is typing...</em></label>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" id="message" placeholder="Message"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column col-lg-3">
+        </div>
+        <div class="col-lg-8 col-sm-12 col-xs-12 column">
+            <div class="form-group">
+              <a href="#" class="btn btn-tekan" role="button" title="test add link">Post Message</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <!-- Footer -->
+        <footer>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Ireka Soft Sdn Bhd 2015</p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- datepicker -->
+    <script src="js/locales/bootstrap-datepicker.uk.js"></script>
+
+    <script src="external/jquery/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+<script>
+
+$( "#tabs" ).tabs();
+
+</script>
+
+
+<script>
+    $('div#scroll-able').scrollspy({ target: '#target_nav' });
+</script>
+
+    <script type="text/javascript" src="domtab.js"></script>
+    <script type="text/javascript">
+        document.write('<style type="text/css">');    
+        document.write('div.domtab div{display:none;}<');
+        document.write('/s'+'tyle>');    
+    </script>
+
+</body>
+
+</html>

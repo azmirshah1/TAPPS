@@ -1,0 +1,258 @@
+/*!
+ * Start Bootstrap - Round About HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+.spaces{
+  margin-bottom: 2px;
+ }
+
+
+/*COLOUR*/
+.blue{
+  font-family: HelveticaNeue-Light;
+  font-size: 14px;
+  color: #4BB7EA;
+  line-height: 17px;
+}
+.grey{
+font-family: HelveticaNeue-Medium;
+font-size: 14px;
+color: #979797;
+
+}
+
+/*Colour for status section in Human resource table*/
+.green{
+font-family: HelveticaNeue-Light;
+font-size: 14px;
+color: #50E3C2;
+line-height: 17px;
+}
+
+/*Font color - red */
+ .red{
+    color: red;
+ }
+
+  .white{
+    font-family: HelveticaNeue-ThinItalic;
+    font-size: 12.27px;
+    color: #FFFFFF;
+    line-height: 15px;
+ }
+
+ .orange{
+  color: #D68E1F;
+ }
+
+.margin-down{
+  margin-bottom: -12px;
+}
+
+ .title-news{
+  font-family: HelveticaNeue-Medium;
+  font-size: 18px;
+  color: #D68E1F;
+  line-height: 23px;
+ }
+
+.title{
+  color: #D68E1F;
+}
+
+/*button for post news*/
+ .btn-post-news{
+  background: #4BB7EA;
+  color: #FFFFFF;
+  border-radius: 5px;
+  margin-right: 5px;
+
+ }
+
+.btn-post-news:hover,
+.btn-post-news:focus,
+.btn-post-news.focus,
+.btn-post-news:active,
+.btn-post-news.active,
+.open > .dropdown-toggle.btn-post-news {
+  color: #fff;
+  background-color: #005CAB;
+  border-color: #204d74;
+}
+
+.background-news{
+  background: #FFFFFF;
+  border: 1px solid #F5F5F5;
+  margin-bottom: 2px;
+}
+
+.background-news-blue{
+  background: #4A90E2;
+  border: 1px solid #F5F5F5;
+  margin-bottom: 2px;
+}
+
+
+/* profile name in students profile*/
+ .profile-name{
+  font-family: HelveticaNeue-Medium;
+  font-size: 18px;
+  color: #F5A623;
+ }
+
+/* Table that use in students profile */
+ .table1 {
+  width: 100%;
+  border: 3px solid #FFFDE5;
+ }
+
+ .hidden-border{
+  border: 1px solid #FFFDE5;
+ }
+
+.table-profile{
+  background: #FFDEA9;
+  border: 3px solid #FFFDE5;
+
+}
+
+.table-profile1{
+  background: #FFFFFF;
+  border: 3px solid #FFFDE5;
+}
+
+/* admission */
+
+.admission h3{
+
+  color: grey;
+
+}
+
+
+/* dropdown */
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus{
+
+  background-color: #064377;
+
+}
+
+/* element for icon*/
+.element {
+
+  height: 200px;
+
+}
+
+.element p{
+  font-size: 12px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+ .right-padding{
+ 	margin-right: -100%;
+ 	text-align: right !important;
+ }
+
+.left-padding{
+		margin-left: -60px;
+		text-align: center !important;	
+}
+
+.text-right{
+    text-align: right !important;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.text-left{
+	margin-left: -95px;	
+    text-align: left !important;
+}
+
+.navbar-inverse .navbar-brand{
+	/* Students: */
+font-family: HelveticaNeue-Light, "Arial";
+font-size: 20px;
+color: #F0F0F0;
+line-height: 18px;
+
+}
+
+.navbar-inverse .navbar-nav>li>a{
+
+	/* Students: */
+font-family: HelveticaNeue-Light, "Arial";
+font-size: 16px;
+color: #F0F0F0;
+line-height: 18px;
+}
+
+
+h3{
+
+	font-size: 15px;
+	font-style: bold;
+}
+
+.navbar-inverse {
+	background: #005CAB;
+border-color: #F0F0F0;	
+}
+
+body {
+	background: #FFFDE5;
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+/* update for remove unwanted line color*/
+.navbar-inverse .navbar-toggle{
+  border-color: transparent;
+
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  border-color: transparent;  
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+  /*dark blue*/
+  background-color: #064377; 
+
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.btn-tekan{
+    /* Rectangle 5: */
+    background: #005CAB;
+    border-radius: 5px;
+    /* Sign In: */
+    font-family: HelveticaNeue;
+    color: #FFFFFF;
+}
+
+.btn-tekan:hover,
+.btn-tekan:focus,
+.btn-tekan.focus,
+.btn-tekan:active,
+.btn-tekan.active,
+.open > .dropdown-toggle.btn-tekan {
+  color: #fff;
+  background-color: #005CAB;
+  border-color: #204d74;
+}
+

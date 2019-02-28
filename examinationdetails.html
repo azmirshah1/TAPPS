@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Round About - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/tapps.css" rel="stylesheet">
+
+    <!-- CSS for datepicker -->
+    <link href="css/datepicker.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+
+     <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">TAPPS</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Students <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Examination</a></li>
+                            <li><a href="studentdetails.html">Student Details</a></li>
+                            <li><a href="#">Student Timetable</a></li>
+                            <li><a href="admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">User <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="manageuser.html">Manage User</a></li>
+                            <li><a href="#">Educator Timetable</a></li>
+                        </ul>
+                    </li>
+
+                       <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">HR <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Leave Management</a></li>
+                            <li><a href="#">Employee Pay Slip</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Settings <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Manage Course/Batch</a></li>
+                            <li><a href="#">Manage Student Category</a></li>
+                            <li><a href="#">Manage Subject</a></li>
+                            <li><a href="#">Admission Additional Details</a></li>
+                            <li><a href="#">SMS Module</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">More <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Finance</a></li>
+                            <li><a href="#">Manage News</a></li>
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Event</a></li>
+                        </ul>
+                    </li>
+                </ul> 
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href= ""><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+                    <li><a href= "login.html"><span class="glyphicon glyphicon-off" aria-hidden="true"></span></a></li>
+                </ul>
+            </div>
+
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Breadcrumbs Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li class="active">Fees Submission</li>
+                </ol>
+            </div>
+
+        </div>
+    <!-- form details -->
+
+       <!-- form details -->
+
+      <!-- header form Row -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-sm-12 col-xs-12 col-centered">
+            <div class="col-lg-4 col-sm-3 col-xs-5 text-right">
+                <div><img class="img-circle img-responsive img-center" src="images/examination logo.png" alt=""></div>
+            </div>
+        <div class="col-lg-4 col-sm-8 col-xs-6 text-center">
+            <h2>Examination</h2>
+            <FONT class="red">Examination Details</FONT>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-sm-12 col-xs-12 margin-down"><span class="pull-right red"><em>Dec 2014</em></span></div>
+         </div>
+    </div>
+
+    <!-- Thermatic break  -->
+    <div class="row">
+        <div class="col-lg-8 col-centered">
+            <hr/>
+        </div>
+    </div>
+
+    <!-- Dropdown Cource -->
+<form class="form-horizontal" role="form">
+
+<!--  We need to change from selectpicker to datepicker -->
+    <div class="row col-lg-8 col-sm-12 col-xs-12 col-centered ">
+        <div class="column">
+            <div class="form-group">
+                <label for="examName" class="col-lg-2 col-sm-2 col-xs-12 control-label">Exam Name</label>
+                <div class="col-lg-6 col-sm-6 col-xs-8">
+                    <select class="form-control selectpicker" id="examName">
+                        <option></option>
+                        <option>Test 1</option>
+                        <option>Mid Term</option>
+                        <option>Final Exam</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</form>
+
+    <div class="row">
+        <div class="col-lg-8 col-sm-12 col-xs-12 col-centered">   
+                <table class="table table1 table-condensed">
+                <tbody>
+                    <tr>
+                        <th class="hidden-border text-left"> Exam Type</th>
+                        <td class="hidden-border text-left"> Final Examination </td>
+                    </tr>
+                    <tr>
+                        <th class="hidden-border text-left"> Exam Date </th>
+                        <td class="hidden-border text-left"> 10 November 2014 - 20 November 2014 </td>
+                    </tr>
+                    <tr>
+                        <th class="hidden-border text-left"> Ranking </th>
+                        <td class="hidden-border text-left"> 1 </td>
+                    </tr>
+                </tbody>
+            </table> 
+        </div>
+    </div>
+
+    <!-- Table attendance -->
+    <div class="row">
+        <div class="col-lg-8 col-centered">
+        <table class="table table1 table-striped table-hover table-condensed">
+                <tr>
+                    <th class="table-profile">No</th>
+                    <th class="table-profile" >Subject</th>
+                    <th class="table-profile" >Min Mark</th>
+                    <th class="table-profile" >Max Mark</th>
+                    <th class="table-profile" >Mark</th>
+
+                </tr>
+                <tr>
+                    <td class="table-profile1">1</td>
+                    <td class="table-profile1" >Bahasa Melayu</td>
+                    <td class="table-profile1" >40 %</td>
+                    <td class="table-profile1" >100%</td>
+                    <td class="table-profile1" >92%</td>
+                </tr>
+                <tr>
+                    <td class="table-profile1">2</td>
+                    <td class="table-profile1" >Pendidikan Islam</td>
+                    <td class="table-profile1" >40 %</td>
+                    <td class="table-profile1" >100%</td>
+                    <td class="table-profile1" >96%</td>
+                </tr> 
+                <tr>
+                    <td class="table-profile1">3</td>
+                    <td class="table-profile1" >Mathematic</td>
+                    <td class="table-profile1" >40 %</td>
+                    <td class="table-profile1" >100%</td>
+                    <td class="table-profile1" >91%</td>
+                </tr> 
+                <tr>
+                    <td class="table-profile1">4</td>
+                    <td class="table-profile1" >English</td>
+                    <td class="table-profile1" >40 %</td>
+                    <td class="table-profile1" >100%</td>
+                    <td class="table-profile1" >92%</td>
+                </tr> 
+                <tr>
+                    <td class="table-profile1">5</td>
+                    <td class="table-profile1" >Science</td>
+                    <td class="table-profile1" >40 %</td>
+                    <td class="table-profile1" >100%</td>
+                    <td class="table-profile1" >95%</td>
+                </tr>  
+                <tr>
+                    <td class="table-profile1">6</td>
+                    <td class="table-profile1" >Art</td>
+                    <td class="table-profile1" >40 %</td>
+                    <td class="table-profile1" >100%</td>
+                    <td class="table-profile1" >100%</td>
+                </tr> 
+        </table>
+        </div>
+
+        <div class="col-lg-8 col-sm-12 col-xs-12 col-centered">
+              <div class="pull-right"> <button class="btn btn-tekan" type="reset">PDF Report</button></div>
+        </div>
+</form>
+
+
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- datepicker -->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/locales/bootstrap-datepicker.uk.js"></script>
+
+
+
+</body>
+
+</html>

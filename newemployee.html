@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Round About - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/tapps.css" rel="stylesheet">
+
+    <!-- CSS for datepicker -->
+    <link href="css/datepicker.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+
+     <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">TAPPS</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Students <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Examination</a></li>
+                            <li><a href="studentdetails.html">Student Details</a></li>
+                            <li><a href="#">Student Timetable</a></li>
+                            <li><a href="admission.html">Admission</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">User <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Manage User</a></li>
+                            <li><a href="#">Educator Timetable</a></li>
+                        </ul>
+                    </li>
+
+                       <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">HR <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Leave Management</a></li>
+                            <li><a href="#">Employee Pay Slip</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Settings <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Manage Course/Batch</a></li>
+                            <li><a href="#">Manage Student Category</a></li>
+                            <li><a href="#">Manage Subject</a></li>
+                            <li><a href="#">Admission Additional Details</a></li>
+                            <li><a href="#">SMS Module</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle ">More <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Finance</a></li>
+                            <li><a href="#">Manage News</a></li>
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Event</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href= ""><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+                    <li><a href= "login.html"><span class="glyphicon glyphicon-off" aria-hidden="true"></span></a></li>
+                </ul>
+            </div>
+
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Breadcrumbs Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li class="active">New Employee</li>
+                </ol>
+            </div>
+        </div>
+
+    <!-- form details -->
+
+    <!-- header form Row -->
+    <div class="row">
+        <div class="col-lg-12">
+        </div>
+        <div class="col-lg-3 col-sm-3 col-xs-6 text-right">
+            <div><img class="img-circle img-responsive img-center" src="images/manage user logo.png" alt=""></div>
+        </div>
+        <div class="col-lg-2 col-sm-3 col-xs-6 left-padding">
+            <h3>Manage User</h3>
+            <FONT COLOR="red">Create New Employee</FONT>
+        </div>
+    </div>
+
+   
+    
+    
+    <form class="form-horizontal admission" role="form">
+    <!-- start form -->
+    <!-- Personal details section-->
+    <h3> Personal Details</h3>
+    <hr>
+
+        <!-- Textfill - Full Name -->
+        <div class="form-group">
+            <label for="fullName" class="col-sm-2 control-label">Full Name</label>
+            <div class="col-sm-6">
+            <input type="text" class="form-control" id="fullName" placeholder="Full Name...">
+            </div>
+        </div>
+
+        <!-- Dropdown - department -->
+        <div class="form-group">
+            <label for="department" class="col-sm-2 control-label">Department</label>
+            <div class="col-sm-3">
+        <select class="form-control selectpicker" id="department">
+            <option></option>
+            <option>System Admin</option>
+            <option>Finance</option>
+            <option>Parent</option>
+        </select>
+            </div>
+        </div>
+
+        <!-- TextField - Job title -->
+        <div class="form-group">
+            <label for="jobTitle" class="col-sm-2 control-label">Job Title</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="jobTitle" placeholder="Job Title">
+            </div>
+        </div>
+
+        <!-- Dropdown - position -->
+        <div class="form-group">
+            <label for="position" class="col-sm-2 control-label">Position</label>
+            <div class="col-sm-3">
+        <select class="form-control selectpicker" id="position">
+            <option></option>
+            <option>System Admin</option>
+            <option>Finance</option>
+            <option>Parent</option>
+        </select>
+            </div>
+        </div>
+
+        <!-- Dropdown - qualification -->
+        <div class="form-group">
+            <label for="qualification" class="col-sm-2 control-label">Qualification</label>
+            <div class="col-sm-3">
+        <select class="form-control selectpicker" id="qualification">
+            <option></option>
+            <option>SPM</option>
+            <option>Diploma</option>
+            <option>Degree</option>
+            <option>Others</option>
+        </select>
+            </div>
+        </div>
+
+        <!-- TextField - Job title -->
+        <div class="form-group">
+            <label for="totalExperience" class="col-sm-2 control-label">Total Experience</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="totalExperience" placeholder="Please Select User Type">
+            </div>
+        </div>
+
+        <!-- Repair kemudian - datepicker - DOB -->
+         <div class="form-group">
+            <label for="dateOfBirth" class="col-sm-2 control-label">Date Of Birth</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="dateOfBirth" placeholder="Date Selection">
+            </div>
+        </div>
+
+        <!-- Radio Button - Gender -->
+        <div class="form-group">
+            <label for="gender" class="col-sm-2 control-label">Gender</label>
+            <div class="col-sm-3">
+            <label class="radio-inline"><input type="radio" name="optradio">Male</label>
+            <label class="radio-inline"><input type="radio" name="optradio">Female</label>
+            </div>
+        </div>
+
+        <!-- Dropdown - nationality -->
+        <div class="form-group">
+            <label for="nationality" class="col-sm-2 control-label">Nationality</label>
+            <div class="col-sm-3">
+        <select class="form-control selectpicker" id="nationality">
+            <option></option>
+            <option>Malaysian</option>
+            <option>Indonesian</option>
+            <option>Bruneian</option>
+            <option>Singaporean</option>
+            <option>Others</option>
+        </select>
+            </div>
+        </div>
+
+        <!-- Dropdown - Religion -->
+        <div class="form-group">
+            <label for="religion" class="col-sm-2 control-label">Religion</label>
+            <div class="col-sm-3">
+        <select class="form-control selectpicker" id="religion">
+            <option></option>
+            <option>Islam</option>
+            <option>Christian</option>
+            <option>Hindu</option>
+            <option>Buddha</option>
+            <option>Sikh</option>
+            <option>Others</option>
+        </select>
+            </div>
+        </div>
+
+        <!-- TextField - Bank Account Name -->
+        <div class="form-group">
+            <label for="bankAccountName" class="col-sm-2 control-label">Bank Account Name</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="bankAccountName" placeholder="Please Write..">
+            </div>
+        </div>
+
+        <!-- TextField - Bank Account Number-->
+        <div class="form-group">
+            <label for="bankAccountNo" class="col-sm-2 control-label">Bank Account No</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="bankAccountNo" placeholder="Please Write..">
+            </div>
+        </div>
+
+    <!-- Contact details section -->
+    <h3> Contact Details</h3>
+    <hr/>
+
+        <!-- Need to double, use txtfield or text area - text field - Address -->
+        <div class="form-group">
+            <label for="address" class="col-sm-2 control-label">Address</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="address1" placeholder="Address line 1"><br> 
+            <input type="text" class="form-control" id="address2" placeholder="Address line 2">
+            </div>
+        </div>
+
+        <!-- Text Field - Postcode -->
+        <div class="form-group">
+            <label for="postcode" class="col-sm-2 control-label">Postcode</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="postcode" placeholder="Postcode">
+            </div>
+        </div>
+
+        <!-- Text Field - City -->
+        <div class="form-group">
+            <label for="city" class="col-sm-2 control-label">City</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="city" placeholder="City">
+            </div>
+        </div>
+
+        <!-- Text Field - State -->
+        <div class="form-group">
+            <label for="state" class="col-sm-2 control-label">State</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="State" placeholder="State">
+            </div>
+        </div>
+
+        <!-- Text Field - Homephone -->
+        <div class="form-group">
+            <label for="phone" class="col-sm-2 control-label">Phone</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="phone" placeholder="Home Phone">
+            </div>
+        </div>
+
+        <!-- Text Field - MobilePhone -->
+         <div class="form-group">
+            <label for="mobile" class="col-sm-2 control-label">Mobile</label>
+            <div class="col-sm-3">
+            <input type="text" class="form-control" id="mobile" placeholder="Mobile Phone">
+            </div>
+        </div>
+
+        <!-- Text Field - Email -->
+        <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" id="email" placeholder="Email">
+            </div>
+        </div>
+        
+        <!-- File Upload - Upload photo -->
+        <div class="form-group">
+            <label for="photo" class="col-sm-2 control-label">Upload your photo</label>
+
+
+            <div class="col-sm-3">
+                <input type="file" class="filestyle " id="religion" data-buttonName="btn-primary">
+            </div>
+        </div>
+        <br/>
+
+        <!-- Button reset and submit -->
+        <div class="form-group ">
+
+            <label class="col-sm-2 control-label"></label>
+          
+            <div class="col-sm-3">
+              <button class="btn btn-danger" type="reset">Reset</button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+
+        </div>
+
+
+
+
+</form>
+        
+
+
+        <!-- Footer -->
+        <footer>
+            <hr>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- datepicker -->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/locales/bootstrap-datepicker.uk.js"></script>
+
+
+
+</body>
+
+</html>
